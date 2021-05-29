@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 175px;
+    margin-bottom: 50px;
+}
+
+#welcome {
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    line-height: 1.4;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: fantasy;
+    font-weight: 300;
+}
+
+#NAME {
+    font-size: 30px;
+    font-family: fantasy;
+    color: black;
+    line-height: 1.4;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    color: darkorange;
+    font-family: fantasy;
+    font-size: 30px;
+    float: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.links:hover {
+    background-color: cornflowerblue;
+}
+
+#bio {
+    text-align: center;
+    padding: 50px;
+
+}
+
+#Contact {
+    background: firebrick;
+
+}
+
+.contact1 a {
+    background: cyan;
+    text-shadow: none;
+}
+.contact1 h3 {
+display: inline;
+}
